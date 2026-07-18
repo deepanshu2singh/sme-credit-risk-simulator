@@ -1,0 +1,7 @@
+pandas>=2.0
+numpy>=1.24
+streamlit>=1.30
+plotly>=5.18
+# optional — only needed if you load from Postgres/Supabase instead of CSVs
+# sqlalchemy>=2.0
+# psycopg2-binary>=2.9

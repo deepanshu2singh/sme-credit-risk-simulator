@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+
+# secrets — never commit (contains the poolers url)
+setup_supabase.py
+
+# large generated data (regenerate with: python data_generation.py)
+output/daily_transactions.csv
+output/daily_balances.csv
+
+# keep the small feeds the app needs:
+!output/sme_profiles.csv
+!output/credit_facilities.csv
+!output/macro_index.csv
+!output/sme_credit_summary.csv
+!output/monthly_metrics.csv
+!output/firm_economics.csv
+!output/stress_curve.csv
+!output/data_dictionary.md
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
