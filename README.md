@@ -2,7 +2,7 @@
 
 **Underwriting small businesses from their bank-account data — not their filed accounts.**
 
-> 🔗 **Live demo:** _add your Streamlit Cloud URL here_
+> 🔗 **Live demo:** (https://sme-credit-risk-simulator.streamlit.app)
 > 📊 500 simulated UK SMEs · ~435,000 current-account transactions · portfolio stress testing
 
 ---
